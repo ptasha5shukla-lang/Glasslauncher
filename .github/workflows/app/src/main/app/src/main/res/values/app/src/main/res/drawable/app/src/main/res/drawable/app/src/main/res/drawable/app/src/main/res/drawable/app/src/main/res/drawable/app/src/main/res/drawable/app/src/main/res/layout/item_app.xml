@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp" android:layout_height="wrap_content"
+    android:layout_marginEnd="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/glass_card"
+    android:focusable="true" android:clickable="true"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent" android:layout_height="90dp"
+        android:scaleType="fitCenter" />
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" android:maxLines="1" android:ellipsize="end"
+        android:textColor="#FFFFFF" android:textSize="16sp" />
+</LinearLayout>
